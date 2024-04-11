@@ -7,5 +7,6 @@
     </head>
     <body>
         <h1> Cronograma de aulas </h1>
+        <p> Aula: {{ $lesson }}</p>
     </body>
 </html>

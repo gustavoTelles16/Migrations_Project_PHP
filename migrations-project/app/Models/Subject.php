@@ -12,8 +12,4 @@ class Subject extends Model
     protected $fillable = [
         'description',
     ];
-
-    protected $hidden = [
-        'description',
-    ];
 }

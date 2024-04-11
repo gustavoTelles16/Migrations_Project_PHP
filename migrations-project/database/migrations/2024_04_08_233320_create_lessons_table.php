@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('lessons', function (Blueprint $table) {
             $table->id();
             $table->foreignId('student_id')->constrained();
-            $table->foreignId('subject_id')->constrained();
+            $table->foreignId('subject_id')->constrained();   
             $table->date('weekDay')->nullable();
             $table->time('hour', $precision = 0)->nullable();
             $table->timestamps();

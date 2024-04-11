@@ -20,11 +20,6 @@ class Lesson extends Model
         'hour',
     ];
 
-    protected $hidden = [
-        'student_id',
-        'subject_id',
-    ];
-
     public function students(): HasMany
     {
         return $this->hasMany('Student'::class);

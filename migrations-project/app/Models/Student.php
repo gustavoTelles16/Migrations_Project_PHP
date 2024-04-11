@@ -16,8 +16,4 @@ class Student extends Model
         'entryDate',
         'departureDate',
     ];
-
-    protected $hidden = [
-        'rg',
-    ];
 }
